@@ -1,0 +1,6 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: git
+    image: docker:git
